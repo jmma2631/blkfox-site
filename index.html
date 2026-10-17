@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLKFOX</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            overflow: hidden;
+        }
+
+        .hero {
+            width: 100vw;
+            height: 100vh;
+
+            background-image: url("images/blkfox-hero.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #000;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                background-position: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero"></div>
+</body>
+</html>
